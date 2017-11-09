@@ -1,18 +1,18 @@
 'use strict';
 
 angular.
-  module('phonecatApp').
+  module('toDoListApp').
   config(['$locationProvider' ,'$routeProvider',
     function config($locationProvider, $routeProvider) {
       $locationProvider.hashPrefix('!');
 
       $routeProvider.
-        when('/phones', {
-          template: '<phone-list></phone-list>'
+        when('/to-do-lists', {
+          template: '<to-do-list-list></to-do-list-list>'
         }).
-        when('/phones/:phoneId', {
-          template: '<phone-detail></phone-detail>'
+        when('/to-do-lists/:toDoListId', {
+          template: '<to-do-list-detail></to-do-list-detail>'
         }).
-        otherwise('/phones');
+        otherwise('/to-do-lists');
     }
   ]);

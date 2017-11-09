@@ -1,10 +1,10 @@
 'use strict';
 
-// Define the `phonecatApp` module
-angular.module('phonecatApp', [
+// Define the `toDoListApp` module
+angular.module('toDoListApp', [
   'ngAnimate',
   'ngRoute',
   'core',
-  'phoneDetail',
-  'phoneList'
+  'toDoListDetail',
+  'toDoListList'
 ]);

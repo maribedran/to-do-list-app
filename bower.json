@@ -1,8 +1,8 @@
 {
-  "name": "angular-phonecat",
-  "description": "A starter project for AngularJS",
+  "name": "to-do-list-app",
+  "description": "A To-Do List Organizer",
   "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-phonecat",
+  "homepage": "https://github.com/maribedran/to-do-list-app",
   "license": "MIT",
   "private": true,
   "dependencies": {
